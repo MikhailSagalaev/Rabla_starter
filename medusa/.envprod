@@ -1,0 +1,35 @@
+# Основные URL и CORS настройки
+STORE_CORS=https://your-frontend-domain.ru
+ADMIN_CORS=https://your-backend-domain.ru
+AUTH_CORS=https://your-frontend-domain.ru,https://your-backend-domain.ru
+BACKEND_URL=https://your-backend-domain.ru
+
+# Базы данных
+DATABASE_URL=postgresql://medusauser:secure_password_here@localhost:5432/medusa
+REDIS_URL=redis://localhost:6379
+
+# Секреты (замените на сгенерированные значения)
+JWT_SECRET=your_generated_jwt_secret
+COOKIE_SECRET=your_generated_cookie_secret
+
+# Настройки режима работы
+DISABLE_MEDUSA_ADMIN=false
+MEDUSA_WORKER_MODE=server
+PORT=9000
+
+# Stripe (если планируете использовать)
+STRIPE_API_KEY=your_stripe_api_key
+
+# MinIO настройки
+# В продакшене лучше использовать S3 или другое облачное хранилище
+# Если вы хотите использовать MinIO, настройте его на сервере:
+S3_FILE_URL=https://your-backend-domain.ru/minio/medusa
+S3_ACCESS_KEY_ID=secure_minio_access_key
+S3_SECRET_ACCESS_KEY=secure_minio_secret_key
+S3_REGION=us-east-1
+S3_BUCKET=medusa-uploads
+S3_ENDPOINT=http://localhost:9000
+S3_FORCE_PATH_STYLE=true
+
+# Дополнительные настройки
+DB_NAME=medusa

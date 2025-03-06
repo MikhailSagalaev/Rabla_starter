@@ -24,12 +24,16 @@
   "dependencies": {
     "@medusajs/admin-sdk": "^2.5.0",
     "@medusajs/cli": "^2.5.0",
+    "@medusajs/file": "^2.6.0",
     "@medusajs/framework": "^2.5.0",
-    "@medusajs/medusa": "^2.5.0",
-    "@mikro-orm/core": "6.4.3",
+    "@medusajs/inventory": "^2.6.0",
+    "@medusajs/medusa": "^2.6.0",
+    "@medusajs/stock-location": "^2.6.0",
+    "@medusajs/workflow-engine-inmemory": "^2.6.0",
+    "@mikro-orm/core": "^6.4.7",
     "@mikro-orm/knex": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",
-    "@mikro-orm/postgresql": "6.4.3",
+    "@mikro-orm/postgresql": "6.4.7",
     "@tanstack/react-query": "^5.62.16",
     "awilix": "^8.0.1",
     "lodash": "^4.17.21",
@@ -38,9 +42,9 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@medusajs/test-utils": "^2.2.0",
-    "@mikro-orm/cli": "6.4.3",
-    "@swc/core": "1.5.7",
+    "@medusajs/test-utils": "^2.5.0",
+    "@mikro-orm/cli": "6.4.7",
+    "@swc/core": "^1.7.28",
     "@swc/jest": "^0.2.37",
     "@tanstack/eslint-plugin-query": "^5.62.16",
     "@types/jest": "^29.5.14",
@@ -54,7 +58,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
+    "typescript": "^5.4.5",
     "vite": "^5.4.11"
   },
   "engines": {
